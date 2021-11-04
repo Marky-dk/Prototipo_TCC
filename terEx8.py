@@ -36,7 +36,7 @@ class TerEx8:
 
         # quanto menor a posição da altura, mais alto o ponto está
         # quanto maior a posição da altura, mais baixo o ponto está
-        if punhoEsquerdo_V and punhoDireito_V < cabeca_V:
+        if punhoEsquerdo_V < cabeca_V and punhoDireito_V < cabeca_V:
             if (punhoEsquerdo_H >= ombroEsquerdo_H) and (punhoDireito_H <= ombroDireito_H):
                 if (cotoveloEsquerdo_H >= ombroEsquerdo_H) and (cotoveloDireito_H <= ombroDireito_H):
                     if punhoEsquerdo_V == punhoDireito_V:
