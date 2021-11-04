@@ -65,7 +65,6 @@ class SegEx9:
             if punhoDireito_H < cabeca_H:
                 if punhoDireito_H > cotoveloDireito_H:
                     if cabeca_V <= cotoveloDireito_V:
-                        if cabeca_H <= ombroDireito_H:
                             return True
         else:
             return False
